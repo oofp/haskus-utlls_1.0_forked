@@ -1,4 +1,5 @@
 dist
+<<<<<<< HEAD
 *.swp
 *.out
 *.log
@@ -12,3 +13,26 @@ dist
 cabal.sandbox.config
 .cabal-sandbox
 .stack-work
+=======
+dist-*
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+>>>>>>> 0ea851f30cb6bfc57d5201eb4318c9f32c470bef
