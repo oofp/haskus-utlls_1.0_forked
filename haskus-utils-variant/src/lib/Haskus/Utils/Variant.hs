@@ -595,8 +595,8 @@ prependVariant (Variant t a) = Variant (n+t) a
 
 -- | xs is liftable in ys
 type Liftable xs ys =
-   ( IsSubset xs ys ~ 'True
-   , LiftVariant xs ys
+   ( -- IsSubset xs ys ~ 'True
+     LiftVariant xs ys
    )
 
 class LiftVariant xs ys where
